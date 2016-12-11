@@ -26,3 +26,5 @@ temp/
 *.ncrunchsolution
 .vscode
 nCrunchTemp*.*
+*.pubxml
+/src/Foundation/ClaimsSecurity/code/Habitat.Framework.ClaimsSecurity.csproj.sitecore

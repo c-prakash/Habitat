@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.SitecoreExtensions", "src\foundation\SitecoreExtensions\code\Sitecore.Foundation.SitecoreExtensions.csproj", "{B535703F-8D07-4F23-A533-2974BB4CC7B1}"
 EndProject
@@ -197,6 +197,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Dictionary.Tests", "src\Foundation\Dictionary\tests\Sitecore.Foundation.Dictionary.Tests.csproj", "{C6AED40E-22F8-49EC-AA3E-D9323E207A9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Testing", "src\Foundation\Testing\code\Sitecore.Foundation.Testing.csproj", "{7CC3D72B-4518-4B78-BE48-630A263C0F5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClaimsSecurity", "ClaimsSecurity", "{B1E29895-72DF-4805-873B-1E2CCD273199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.ClaimsSecurity", "src\Foundation\ClaimsSecurity\code\Sitecore.Foundation.ClaimsSecurity.csproj", "{12B0F51E-C15D-409A-8B61-53BA9E974000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.ClaimsSecurity.Tests", "src\Foundation\ClaimsSecurity\Tests\Sitecore.Foundation.ClaimsSecurity.Tests.csproj", "{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -614,6 +620,22 @@ Global
 		{7CC3D72B-4518-4B78-BE48-630A263C0F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7CC3D72B-4518-4B78-BE48-630A263C0F5B}.Release|x64.ActiveCfg = Release|Any CPU
 		{7CC3D72B-4518-4B78-BE48-630A263C0F5B}.Release|x64.Build.0 = Release|Any CPU
+		{12B0F51E-C15D-409A-8B61-53BA9E974000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B0F51E-C15D-409A-8B61-53BA9E974000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B0F51E-C15D-409A-8B61-53BA9E974000}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{12B0F51E-C15D-409A-8B61-53BA9E974000}.Debug|x64.Build.0 = Debug|Any CPU
+		{12B0F51E-C15D-409A-8B61-53BA9E974000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B0F51E-C15D-409A-8B61-53BA9E974000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B0F51E-C15D-409A-8B61-53BA9E974000}.Release|x64.ActiveCfg = Release|Any CPU
+		{12B0F51E-C15D-409A-8B61-53BA9E974000}.Release|x64.Build.0 = Release|Any CPU
+		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Debug|x64.Build.0 = Debug|Any CPU
+		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Release|x64.ActiveCfg = Release|Any CPU
+		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -705,5 +727,8 @@ Global
 		{1E797ECB-D017-4ED6-8706-BC89B556F26C} = {65673857-6BDF-408E-ACD8-417A0BCCAB7A}
 		{C6AED40E-22F8-49EC-AA3E-D9323E207A9D} = {66E8BB68-FF26-4FEE-A336-3F8284F2F3E2}
 		{7CC3D72B-4518-4B78-BE48-630A263C0F5B} = {1B850A0C-6B4F-4189-89F3-7A16E9592291}
+		{B1E29895-72DF-4805-873B-1E2CCD273199} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
+		{12B0F51E-C15D-409A-8B61-53BA9E974000} = {B1E29895-72DF-4805-873B-1E2CCD273199}
+		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8} = {B1E29895-72DF-4805-873B-1E2CCD273199}
 	EndGlobalSection
 EndGlobal
