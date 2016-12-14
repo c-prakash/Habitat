@@ -204,6 +204,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.ClaimsS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.ClaimsSecurity.Tests", "src\Foundation\ClaimsSecurity\Tests\Sitecore.Foundation.ClaimsSecurity.Tests.csproj", "{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenIdConnectRP", "OpenIdConnectRP", "{860CB1AD-56EB-4347-997E-855AAF660CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.OpenIdConnectRP", "src\Feature\OpenIdConnectRP\code\Sitecore.Feature.OpenIdConnectRP.csproj", "{C9964AB7-8862-4E37-9EF2-26BEA2FA4064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -636,6 +640,14 @@ Global
 		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Release|x64.ActiveCfg = Release|Any CPU
 		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8}.Release|x64.Build.0 = Release|Any CPU
+		{C9964AB7-8862-4E37-9EF2-26BEA2FA4064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9964AB7-8862-4E37-9EF2-26BEA2FA4064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9964AB7-8862-4E37-9EF2-26BEA2FA4064}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C9964AB7-8862-4E37-9EF2-26BEA2FA4064}.Debug|x64.Build.0 = Debug|Any CPU
+		{C9964AB7-8862-4E37-9EF2-26BEA2FA4064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9964AB7-8862-4E37-9EF2-26BEA2FA4064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9964AB7-8862-4E37-9EF2-26BEA2FA4064}.Release|x64.ActiveCfg = Release|Any CPU
+		{C9964AB7-8862-4E37-9EF2-26BEA2FA4064}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -730,5 +742,7 @@ Global
 		{B1E29895-72DF-4805-873B-1E2CCD273199} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
 		{12B0F51E-C15D-409A-8B61-53BA9E974000} = {B1E29895-72DF-4805-873B-1E2CCD273199}
 		{DEB4486D-8B0A-4AAB-826A-0A055F33A4D8} = {B1E29895-72DF-4805-873B-1E2CCD273199}
+		{860CB1AD-56EB-4347-997E-855AAF660CA2} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
+		{C9964AB7-8862-4E37-9EF2-26BEA2FA4064} = {860CB1AD-56EB-4347-997E-855AAF660CA2}
 	EndGlobalSection
 EndGlobal

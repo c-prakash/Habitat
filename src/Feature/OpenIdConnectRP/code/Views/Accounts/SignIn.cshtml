@@ -1,0 +1,19 @@
+﻿@model IEnumerable<System.Security.Claims.Claim>
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="row">
+        <h4>Claims for Logged in User - @User.Identity.Name </h4>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <ul>
+                @foreach (var claim in Model)
+                {
+                    <li>
+                        <span>@claim.Type -- @claim.Value</span>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+}
